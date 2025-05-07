@@ -5,7 +5,7 @@
 # Objectif: utiliser la condition [ -f filename ]
 
 # Demande à l'utilisateur d'entrer un nom de fichier
-echo -n "Entrez le nom du fichier : "
+echo "Entrez le nom du fichier : "
 read filename
 
 # La condition [ -f filename ] vérifie si le fichier existe et est un fichier régulier
